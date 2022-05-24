@@ -1,0 +1,41 @@
+/* estos es un comentario */
+
+/* selector {
+        propiedad: valor */
+/*
+
+1- cascada */
+section p{
+    /* ingles - rgb - rgba-hsl-hexa */
+    color: rgba(255, 145, 0, 0.952);
+}
+
+/*2- class */
+.paragraph-blue {
+    color: blue;
+    background-color: brown;
+}
+
+/* 3- id */
+#trabajos {
+    background-color: rgb(255, 240, 240);
+}
+ /* especifidad -utilizar class el lo mas recomendable*/
+
+ body {
+     background-image: url("multimedia/imagenes/logoignaciojav.png");
+     background-size: cover ;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+
+ }
+ a{
+     text-decoration: none;
+     color: black;
+     font-size: 44px;
+ }
+
+ ul{
+     list-style: none;
+ }
+
